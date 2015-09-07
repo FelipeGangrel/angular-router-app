@@ -1,0 +1,17 @@
+body{ padding-top: 50px; }
+#content-view{
+  position: relative;
+}
+.ng-enter, .ng-leave{
+  width: 100%; position: absolute;
+}
+.ng-enter{
+  -webkit-animation: pulse 1.2s ease-in;
+  -moz-animation: pulse 1.2s ease-in;
+  animation: pulse 1.2s ease-in;
+}
+/*.ng-leave{
+  -webkit-animation: slideOutRight 0.5s both ease-in;
+  -moz-animation: slideOutRight 0.5s both ease-in;
+  animation: slideOutRight 0.5s both ease-in;
+}*/
